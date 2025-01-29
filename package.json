@@ -1,0 +1,53 @@
+{
+  "name": "champagne-tango-timetable",
+  "version": "1.0.0",
+  "description": "A blank template to get started with Payload 3.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "cross-env NODE_OPTIONS=--no-deprecation next build",
+    "dev": "cross-env NODE_OPTIONS=--no-deprecation next dev",
+    "devsafe": "rm -rf .next && cross-env NODE_OPTIONS=--no-deprecation next dev",
+    "generate:importmap": "cross-env NODE_OPTIONS=--no-deprecation payload generate:importmap",
+    "generate:types": "cross-env NODE_OPTIONS=--no-deprecation payload generate:types",
+    "lint": "cross-env NODE_OPTIONS=--no-deprecation next lint",
+    "payload": "cross-env NODE_OPTIONS=--no-deprecation payload",
+    "start": "cross-env NODE_OPTIONS=--no-deprecation next start"
+  },
+  "dependencies": {
+    "@fontsource-variable/eb-garamond": "^5.1.2",
+    "@fontsource/eb-garamond": "^5.1.2",
+    "@payloadcms/db-postgres": "^3.19.0",
+    "@payloadcms/next": "^3.19.0",
+    "@payloadcms/payload-cloud": "^3.19.0",
+    "@payloadcms/richtext-lexical": "^3.19.0",
+    "@payloadcms/storage-vercel-blob": "^3.19.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "@tailwindcss/typography": "^0.5.16",
+    "clsx": "^2.1.1",
+    "cross-env": "^7.0.3",
+    "graphql": "^16.10.0",
+    "next": "15.1.6",
+    "payload": "^3.19.0",
+    "postcss": "^8.5.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "sharp": "0.33.5",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss": "^4.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@types/node": "^22.12.0",
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3",
+    "eslint": "^9.19.0",
+    "eslint-config-next": "15.1.6",
+    "prettier": "^3.4.2",
+    "typescript": "5.7.3"
+  },
+  "engines": {
+    "node": "^18.20.2 || >=20.9.0"
+  },
+  "packageManager": "yarn@4.5.3+sha512.3003a14012e2987072d244c720506549c1aab73ee728208f1b2580a9fd67b92d61ba6b08fe93f6dce68fd771e3af1e59a0afa28dd242dd0940d73b95fedd4e90"
+}

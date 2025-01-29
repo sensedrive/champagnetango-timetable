@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-gold: #af9453;
+  --color-gold-light: #e4d9bc;
+  --color-tango-red: #8b0000;
+}
+
+body {
+  font-family: 'EB Garamond Variable', sans-serif;
+}
