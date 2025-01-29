@@ -18,7 +18,9 @@ const HomePage = async () => {
           <ul>
             {doc.docs.map((programmplan) => (
               <li key={programmplan.id}>
-                <Link href={`/programmplan/${programmplan.id}`}>{programmplan.title}</Link>
+                <Link href={`/programmplan/${programmplan.id}`}>
+                  {programmplan.title} - {programmplan.headline}
+                </Link>
               </li>
             ))}
           </ul>

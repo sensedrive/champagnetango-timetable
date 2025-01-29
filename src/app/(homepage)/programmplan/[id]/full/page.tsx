@@ -45,7 +45,7 @@ const FullProgrammplanPage = async ({ params }: { params: Promise<{ id: string }
       <div className="flex flex-col h-full">
         <div className="flex justify-center items-center py-12">
           <div className="text-gold text-3xl font-semibold font-['EB Garamond'] leading-10 tracking-widest">
-            PROGRAMMABLAUF
+            {doc.headline}
           </div>
         </div>
         <div className="px-8 bg-gold-light h-full">

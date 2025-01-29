@@ -14,6 +14,12 @@ export const Programmplaene: CollectionConfig = {
       required: true,
     },
     {
+      name: 'headline',
+      type: 'text',
+      label: 'Überschrift',
+      required: true,
+    },
+    {
       name: 'programmplanTage',
       label: 'Tage',
       type: 'relationship',

@@ -130,6 +130,7 @@ export interface Media {
 export interface Programmplaene {
   id: number;
   title: string;
+  headline: string;
   programmplanTage: (number | ProgrammplanTage)[];
   updatedAt: string;
   createdAt: string;
@@ -251,6 +252,7 @@ export interface MediaSelect<T extends boolean = true> {
  */
 export interface ProgrammplaeneSelect<T extends boolean = true> {
   title?: T;
+  headline?: T;
   programmplanTage?: T;
   updatedAt?: T;
   createdAt?: T;
