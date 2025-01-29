@@ -24,7 +24,7 @@ const getDateShort = (date: string) => {
   return `${day}.${month}.${year}`
 }
 
-const ProgrammplanPage = async ({ params }: { params: Promise<{ id: string }> }) => {
+const FullProgrammplanPage = async ({ params }: { params: Promise<{ id: string }> }) => {
   const id = (await params).id
   const payload = await getPayload({ config: configPromise })
 
@@ -41,7 +41,7 @@ const ProgrammplanPage = async ({ params }: { params: Promise<{ id: string }> })
   }
 
   return (
-    <A4Page id={id} title={doc.title}>
+    <A4Page withoutSpacings={true}>
       <div className="flex flex-col h-full">
         <div className="flex justify-center items-center py-12">
           <div className="text-gold text-3xl font-semibold font-['EB Garamond'] leading-10 tracking-widest">
@@ -88,4 +88,4 @@ const ProgrammplanPage = async ({ params }: { params: Promise<{ id: string }> })
   )
 }
 
-export default ProgrammplanPage
+export default FullProgrammplanPage

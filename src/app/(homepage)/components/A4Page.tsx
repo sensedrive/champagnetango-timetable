@@ -1,22 +1,44 @@
 'use client'
 
+import cn from '@/app/(homepage)/utils/cn'
 import Link from 'next/link'
 
 type A4PageProps = {
+  id?: string
   children: React.ReactNode
   className?: string
   title?: string
+  withoutSpacings?: boolean
 }
 
-const A4Page = ({ children, className = '', title = '' }: A4PageProps) => {
+const A4Page = ({
+  id,
+  children,
+  className = '',
+  title = '',
+  withoutSpacings = false,
+}: A4PageProps) => {
   // A4 dimensions: 210mm × 297mm
   // We'll add padding and margins for better presentation
   return (
-    <div className={`flex flex-col justify-center p-4 bg-gray-100 min-h-screen ${className}`}>
-      <Link href="/">Zurück</Link>
+    <div
+      className={cn(
+        !withoutSpacings && 'flex flex-col justify-center p-4 bg-gray-100 min-h-screen',
+        withoutSpacings && 'gap-0',
+        className,
+      )}
+    >
+      <div className="flex justify-between items-center">
+        {!withoutSpacings && <Link href="/">Zurück</Link>}
+        {!withoutSpacings && <Link href={`/programmplan/${id}/full`}>Full</Link>}
+      </div>
       {title && <h1 className="text-2xl text-center">{title}</h1>}
       <div
-        className={`bg-white shadow-lg mx-auto mt-4`}
+        className={cn(
+          !withoutSpacings && 'bg-white shadow-lg mx-auto mt-4',
+          withoutSpacings && 'mt-0',
+          withoutSpacings && 'shadow-none',
+        )}
         style={{
           width: '210mm',
           height: '297mm',
