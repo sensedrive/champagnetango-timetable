@@ -1052,7 +1052,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/css@npm:^11.10.5":
+"@emotion/css@npm:^11.13.5":
   version: 11.13.5
   resolution: "@emotion/css@npm:11.13.5"
   dependencies:
@@ -1079,7 +1079,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/react@npm:^11.8.1":
+"@emotion/react@npm:^11.14.0, @emotion/react@npm:^11.8.1":
   version: 11.14.0
   resolution: "@emotion/react@npm:11.14.0"
   dependencies:
@@ -2545,11 +2545,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@payloadcms/db-postgres@npm:^3.19.0":
-  version: 3.19.0
-  resolution: "@payloadcms/db-postgres@npm:3.19.0"
+"@payloadcms/db-postgres@npm:^3.20.0":
+  version: 3.20.0
+  resolution: "@payloadcms/db-postgres@npm:3.20.0"
   dependencies:
-    "@payloadcms/drizzle": "npm:3.19.0"
+    "@payloadcms/drizzle": "npm:3.20.0"
     "@types/pg": "npm:8.10.2"
     console-table-printer: "npm:2.12.1"
     drizzle-kit: "npm:0.28.0"
@@ -2559,14 +2559,14 @@ __metadata:
     to-snake-case: "npm:1.0.0"
     uuid: "npm:10.0.0"
   peerDependencies:
-    payload: 3.19.0
-  checksum: 10c0/27b32c9f9552abc48a7cd48a6e76ee24a5c1f15b9ded2f648472b0cd0e6af78068d75b53351ba419e42b310683df378295107fcc18cac20b7c28272390113bb4
+    payload: 3.20.0
+  checksum: 10c0/e1e7f5548a43d77e3b4c82db00efc689ebf515d4e7bc2591f258cdb2d7169b4a12df6f2187a56fc154d398c2f27dc6d5b330c9b6ce0874c3e176649c582a6679
   languageName: node
   linkType: hard
 
-"@payloadcms/drizzle@npm:3.19.0":
-  version: 3.19.0
-  resolution: "@payloadcms/drizzle@npm:3.19.0"
+"@payloadcms/drizzle@npm:3.20.0":
+  version: 3.20.0
+  resolution: "@payloadcms/drizzle@npm:3.20.0"
   dependencies:
     console-table-printer: "npm:2.12.1"
     drizzle-orm: "npm:0.36.1"
@@ -2574,25 +2574,25 @@ __metadata:
     to-snake-case: "npm:1.0.0"
     uuid: "npm:9.0.0"
   peerDependencies:
-    payload: 3.19.0
-  checksum: 10c0/eb92ed08f4de15f8d8ae6b875c59eca084e64f02928576b2366fa3a896526f213cec05116a71e4eb409bb58c109bd08f456fd6bd7906eccd7135e1612f3dfcdf
+    payload: 3.20.0
+  checksum: 10c0/ced1f2d392647a75e26a6be0ed147f29426037e14c1fedcb1177f20fc5e176c493001553ae2d171901621326fe25bf391359e45010b377b40bb0520d23d1efd6
   languageName: node
   linkType: hard
 
-"@payloadcms/email-nodemailer@npm:3.19.0":
-  version: 3.19.0
-  resolution: "@payloadcms/email-nodemailer@npm:3.19.0"
+"@payloadcms/email-nodemailer@npm:3.20.0":
+  version: 3.20.0
+  resolution: "@payloadcms/email-nodemailer@npm:3.20.0"
   dependencies:
     nodemailer: "npm:6.9.16"
   peerDependencies:
-    payload: 3.19.0
-  checksum: 10c0/b22dd60789f2bbaa96be9375495978b13c7adb8b929bedafec1a53bb6d74799e0177d3d839919997d9a2cc1e4048a2ce07b5335b9b1cfc961eb86b1f7aea536a
+    payload: 3.20.0
+  checksum: 10c0/75a5d07a1450d0af500505777fb6580824f56cbdec6ec9e40f6804a9a523abeffa646a7464be5536a2927ee47b8cb6473cfbd00b471cd9d71a0e2862ea157563
   languageName: node
   linkType: hard
 
-"@payloadcms/graphql@npm:3.19.0":
-  version: 3.19.0
-  resolution: "@payloadcms/graphql@npm:3.19.0"
+"@payloadcms/graphql@npm:3.20.0":
+  version: 3.20.0
+  resolution: "@payloadcms/graphql@npm:3.20.0"
   dependencies:
     graphql-scalars: "npm:1.22.2"
     pluralize: "npm:8.0.0"
@@ -2600,72 +2600,73 @@ __metadata:
     tsx: "npm:4.19.2"
   peerDependencies:
     graphql: ^16.8.1
-    payload: 3.19.0
+    payload: 3.20.0
   bin:
     payload-graphql: bin.js
-  checksum: 10c0/c90edfa2aee13cbb8ac0919f0dbbda13edb334278d0b6fabace0ace2e60e808fb41f2baabd1743fbb4920ac79a498923ffd7466812fcae15e2350badf3af8ba0
+  checksum: 10c0/cdb9f02988fc88ab36c921396516c27b1d4490ab09976491abd437009236c53852339ee1a8145858dcd4ea443870c8deae5cda4b9e08daa7401275eb70400f5b
   languageName: node
   linkType: hard
 
-"@payloadcms/next@npm:^3.19.0":
-  version: 3.19.0
-  resolution: "@payloadcms/next@npm:3.19.0"
+"@payloadcms/next@npm:^3.20.0":
+  version: 3.20.0
+  resolution: "@payloadcms/next@npm:3.20.0"
   dependencies:
     "@dnd-kit/core": "npm:6.0.8"
-    "@payloadcms/graphql": "npm:3.19.0"
-    "@payloadcms/translations": "npm:3.19.0"
-    "@payloadcms/ui": "npm:3.19.0"
+    "@payloadcms/graphql": "npm:3.20.0"
+    "@payloadcms/translations": "npm:3.20.0"
+    "@payloadcms/ui": "npm:3.20.0"
     busboy: "npm:^1.6.0"
+    dequal: "npm:2.0.3"
     file-type: "npm:19.3.0"
     graphql-http: "npm:^1.22.0"
     graphql-playground-html: "npm:1.6.30"
     http-status: "npm:2.1.0"
     path-to-regexp: "npm:6.3.0"
     qs-esm: "npm:7.0.2"
-    react-diff-viewer-continued: "npm:3.2.6"
+    react-diff-viewer-continued: "npm:4.0.4"
     sass: "npm:1.77.4"
     sonner: "npm:^1.7.0"
     uuid: "npm:10.0.0"
   peerDependencies:
     graphql: ^16.8.1
     next: ^15.0.0
-    payload: 3.19.0
-  checksum: 10c0/473bfc7545692f5b60712cbbfdabdefb7ed1c0723f872145667bacd1d90b143aa694177568729bc2c779b81316b1f708e551641859791413d5f5e7a0d3b8f092
+    payload: 3.20.0
+  checksum: 10c0/3310c62acc3b5f515e705075e599aae60ce139f9712407dd8194c7c425d5296b5e5b9716ae3f62885c85feea504527f40bbe53cb1cd8a16491e4c91fc177d5d5
   languageName: node
   linkType: hard
 
-"@payloadcms/payload-cloud@npm:^3.19.0":
-  version: 3.19.0
-  resolution: "@payloadcms/payload-cloud@npm:3.19.0"
+"@payloadcms/payload-cloud@npm:^3.20.0":
+  version: 3.20.0
+  resolution: "@payloadcms/payload-cloud@npm:3.20.0"
   dependencies:
     "@aws-sdk/client-cognito-identity": "npm:^3.614.0"
     "@aws-sdk/client-s3": "npm:^3.614.0"
     "@aws-sdk/credential-providers": "npm:^3.614.0"
     "@aws-sdk/lib-storage": "npm:^3.614.0"
-    "@payloadcms/email-nodemailer": "npm:3.19.0"
+    "@payloadcms/email-nodemailer": "npm:3.20.0"
     amazon-cognito-identity-js: "npm:^6.1.2"
     nodemailer: "npm:6.9.16"
   peerDependencies:
-    payload: 3.19.0
-  checksum: 10c0/b7b60cdf85ddd2b1fc724c1a001da1be0d15f9afa659cef00ec91138bee8745850bc2a901ae4f892409a7c5654c46bfb6957f629c267732069d3bcbff727c50d
+    payload: 3.20.0
+  checksum: 10c0/988a69d808a274f0e45ecc4f4e55beb0afeb49d7f3d9625779ca0bc8d3d4ac99c85053d814524a6e586aad67401a8bdbf917529ba7821a5970134bbb0f6c17ff
   languageName: node
   linkType: hard
 
-"@payloadcms/plugin-cloud-storage@npm:3.19.0":
-  version: 3.19.0
-  resolution: "@payloadcms/plugin-cloud-storage@npm:3.19.0"
+"@payloadcms/plugin-cloud-storage@npm:3.20.0":
+  version: 3.20.0
+  resolution: "@payloadcms/plugin-cloud-storage@npm:3.20.0"
   dependencies:
     find-node-modules: "npm:^2.1.3"
     range-parser: "npm:^1.2.1"
   peerDependencies:
-    payload: 3.19.0
-  checksum: 10c0/994cc9d49e80339e88f7860730b746e8d65dffbd867726f00af13703050faa640f3816d7bca4ed0c2c90e0472626718cd14f86cfae07f5a0879d9f11e1ef700e
+    payload: 3.20.0
+  checksum: 10c0/e4cc1d6f86e72154ffbf8c8731404a13536a908090b205716855810e8c25a78467f8b0d06a3aceae5f1b27c1208c95a110c1fad49aaf729c4409d461b1109c6e
   languageName: node
   linkType: hard
 
-"@payloadcms/richtext-lexical@npm:^3.19.0":
-  version: 3.19.0
-  resolution: "@payloadcms/richtext-lexical@npm:3.19.0"
+"@payloadcms/richtext-lexical@npm:^3.20.0":
+  version: 3.20.0
+  resolution: "@payloadcms/richtext-lexical@npm:3.20.0"
   dependencies:
     "@lexical/headless": "npm:0.21.0"
     "@lexical/html": "npm:0.21.0"
@@ -2676,8 +2677,8 @@ __metadata:
     "@lexical/rich-text": "npm:0.21.0"
     "@lexical/selection": "npm:0.21.0"
     "@lexical/utils": "npm:0.21.0"
-    "@payloadcms/translations": "npm:3.19.0"
-    "@payloadcms/ui": "npm:3.19.0"
+    "@payloadcms/translations": "npm:3.20.0"
+    "@payloadcms/ui": "npm:3.20.0"
     "@types/uuid": "npm:10.0.0"
     acorn: "npm:8.12.1"
     bson-objectid: "npm:2.0.4"
@@ -2704,39 +2705,39 @@ __metadata:
     "@lexical/selection": 0.21.0
     "@lexical/table": 0.21.0
     "@lexical/utils": 0.21.0
-    "@payloadcms/next": 3.19.0
+    "@payloadcms/next": 3.20.0
     lexical: 0.21.0
-    payload: 3.19.0
+    payload: 3.20.0
     react: ^19.0.0 || ^19.0.0-rc-65a56d0e-20241020
     react-dom: ^19.0.0 || ^19.0.0-rc-65a56d0e-20241020
-  checksum: 10c0/4a03c075de51ee7b06cb7cdf4b4579ad4d8e24b65f5a1e77380e0b54e3280502e4dd30482b38d3ca307d801c030185da536b0af8899deee7a977b15ff89ab92a
+  checksum: 10c0/f012b6bd68b9b8e1e2eed92be8a694fc6e5613e2ac94648899e05b82c980df345530bb9d773f9ca520bc1d1bc305f7258bbe3abf2039696559ae09680a49f69b
   languageName: node
   linkType: hard
 
-"@payloadcms/storage-vercel-blob@npm:^3.19.0":
-  version: 3.19.0
-  resolution: "@payloadcms/storage-vercel-blob@npm:3.19.0"
+"@payloadcms/storage-vercel-blob@npm:^3.20.0":
+  version: 3.20.0
+  resolution: "@payloadcms/storage-vercel-blob@npm:3.20.0"
   dependencies:
-    "@payloadcms/plugin-cloud-storage": "npm:3.19.0"
+    "@payloadcms/plugin-cloud-storage": "npm:3.20.0"
     "@vercel/blob": "npm:^0.22.3"
   peerDependencies:
-    payload: 3.19.0
-  checksum: 10c0/06c4f10ecc8a22c141e3be733c6888e9cadd4008edb75116095bc45b0e705a26a26347a224783724a8a7221b31e19cda645a92b7e02a6821808d17bca5ed45a6
+    payload: 3.20.0
+  checksum: 10c0/623725d03d0d9cc63a196d832ec8743cfb9e9d43cdd46b4b51e227e661f7003d9f4f8db69382fea5abfb4a42fa8e3898abf60b10d0a728da95368d74cf731e29
   languageName: node
   linkType: hard
 
-"@payloadcms/translations@npm:3.19.0":
-  version: 3.19.0
-  resolution: "@payloadcms/translations@npm:3.19.0"
+"@payloadcms/translations@npm:3.20.0":
+  version: 3.20.0
+  resolution: "@payloadcms/translations@npm:3.20.0"
   dependencies:
     date-fns: "npm:4.1.0"
-  checksum: 10c0/5d3dce5cd0e12bc6c46f8a0c41c6453a0db24f4ab94c10131e4790affe7b80c5a3247701d72a0937c435fd03353cf993b0c8b03ec806b175235dc07b17a45bdc
+  checksum: 10c0/1fa0e08740ea42d05681d83328e960b7dc520e45563e8473760ef41884b38f9f380748098ff7b5ef5a0ad4f818e2fc5792db6b4661f3a70152d5ac1c6078f135
   languageName: node
   linkType: hard
 
-"@payloadcms/ui@npm:3.19.0":
-  version: 3.19.0
-  resolution: "@payloadcms/ui@npm:3.19.0"
+"@payloadcms/ui@npm:3.20.0":
+  version: 3.20.0
+  resolution: "@payloadcms/ui@npm:3.20.0"
   dependencies:
     "@dnd-kit/core": "npm:6.0.8"
     "@dnd-kit/sortable": "npm:7.0.2"
@@ -2744,7 +2745,7 @@ __metadata:
     "@faceless-ui/scroll-info": "npm:2.0.0-beta.0"
     "@faceless-ui/window-info": "npm:3.0.0-beta.0"
     "@monaco-editor/react": "npm:4.6.0"
-    "@payloadcms/translations": "npm:3.19.0"
+    "@payloadcms/translations": "npm:3.20.0"
     body-scroll-lock: "npm:4.0.0-beta.0"
     bson-objectid: "npm:2.0.4"
     date-fns: "npm:4.1.0"
@@ -2762,10 +2763,10 @@ __metadata:
     uuid: "npm:10.0.0"
   peerDependencies:
     next: ^15.0.0
-    payload: 3.19.0
+    payload: 3.20.0
     react: ^19.0.0 || ^19.0.0-rc-65a56d0e-20241020
     react-dom: ^19.0.0 || ^19.0.0-rc-65a56d0e-20241020
-  checksum: 10c0/e2db65226f302da20dc8030f1c258bbbd07a51406cc230fd784c1b0c90a00308a728f12d96871ea8a74ea389d6ccd86ec3c33cab7f9a82d14837da9e99ecc113
+  checksum: 10c0/a8144722f612a95978e57272d2e309c506c5686ef1ea2f14eb26becb0af8e9eb4d00608fdb6f63f8625e2994375b1566fa3684904648e7f54e8888ba080518ec
   languageName: node
   linkType: hard
 
@@ -3402,109 +3403,109 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/node@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "@tailwindcss/node@npm:4.0.0"
+"@tailwindcss/node@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "@tailwindcss/node@npm:4.0.3"
   dependencies:
     enhanced-resolve: "npm:^5.18.0"
     jiti: "npm:^2.4.2"
-    tailwindcss: "npm:4.0.0"
-  checksum: 10c0/5d7656641f905cdb8dc5ce818b57eb93fd1bd7a52480fe4047882c7175e1b2401b1e7fb6a6027cc785daa52c4107aa8f2998cdbad2195b5cf1d50171db28a55e
+    tailwindcss: "npm:4.0.3"
+  checksum: 10c0/feaa847d03d27fb6234fd1cb9aa1ce307c7282d42d7a20f060650fc30445d325cccd933c5f116ae79e0b878aa66edf97efcd19e8376826a6ac17a26e21570d0e
   languageName: node
   linkType: hard
 
-"@tailwindcss/oxide-android-arm64@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@tailwindcss/oxide-android-arm64@npm:4.0.0"
+"@tailwindcss/oxide-android-arm64@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@tailwindcss/oxide-android-arm64@npm:4.0.3"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"@tailwindcss/oxide-darwin-arm64@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@tailwindcss/oxide-darwin-arm64@npm:4.0.0"
+"@tailwindcss/oxide-darwin-arm64@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@tailwindcss/oxide-darwin-arm64@npm:4.0.3"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@tailwindcss/oxide-darwin-x64@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@tailwindcss/oxide-darwin-x64@npm:4.0.0"
+"@tailwindcss/oxide-darwin-x64@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@tailwindcss/oxide-darwin-x64@npm:4.0.3"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@tailwindcss/oxide-freebsd-x64@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@tailwindcss/oxide-freebsd-x64@npm:4.0.0"
+"@tailwindcss/oxide-freebsd-x64@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@tailwindcss/oxide-freebsd-x64@npm:4.0.3"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@tailwindcss/oxide-linux-arm-gnueabihf@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@tailwindcss/oxide-linux-arm-gnueabihf@npm:4.0.0"
+"@tailwindcss/oxide-linux-arm-gnueabihf@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@tailwindcss/oxide-linux-arm-gnueabihf@npm:4.0.3"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@tailwindcss/oxide-linux-arm64-gnu@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@tailwindcss/oxide-linux-arm64-gnu@npm:4.0.0"
+"@tailwindcss/oxide-linux-arm64-gnu@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@tailwindcss/oxide-linux-arm64-gnu@npm:4.0.3"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@tailwindcss/oxide-linux-arm64-musl@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@tailwindcss/oxide-linux-arm64-musl@npm:4.0.0"
+"@tailwindcss/oxide-linux-arm64-musl@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@tailwindcss/oxide-linux-arm64-musl@npm:4.0.3"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@tailwindcss/oxide-linux-x64-gnu@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@tailwindcss/oxide-linux-x64-gnu@npm:4.0.0"
+"@tailwindcss/oxide-linux-x64-gnu@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@tailwindcss/oxide-linux-x64-gnu@npm:4.0.3"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@tailwindcss/oxide-linux-x64-musl@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@tailwindcss/oxide-linux-x64-musl@npm:4.0.0"
+"@tailwindcss/oxide-linux-x64-musl@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@tailwindcss/oxide-linux-x64-musl@npm:4.0.3"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@tailwindcss/oxide-win32-arm64-msvc@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@tailwindcss/oxide-win32-arm64-msvc@npm:4.0.0"
+"@tailwindcss/oxide-win32-arm64-msvc@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@tailwindcss/oxide-win32-arm64-msvc@npm:4.0.3"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@tailwindcss/oxide-win32-x64-msvc@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@tailwindcss/oxide-win32-x64-msvc@npm:4.0.0"
+"@tailwindcss/oxide-win32-x64-msvc@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@tailwindcss/oxide-win32-x64-msvc@npm:4.0.3"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@tailwindcss/oxide@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "@tailwindcss/oxide@npm:4.0.0"
+"@tailwindcss/oxide@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "@tailwindcss/oxide@npm:4.0.3"
   dependencies:
-    "@tailwindcss/oxide-android-arm64": "npm:4.0.0"
-    "@tailwindcss/oxide-darwin-arm64": "npm:4.0.0"
-    "@tailwindcss/oxide-darwin-x64": "npm:4.0.0"
-    "@tailwindcss/oxide-freebsd-x64": "npm:4.0.0"
-    "@tailwindcss/oxide-linux-arm-gnueabihf": "npm:4.0.0"
-    "@tailwindcss/oxide-linux-arm64-gnu": "npm:4.0.0"
-    "@tailwindcss/oxide-linux-arm64-musl": "npm:4.0.0"
-    "@tailwindcss/oxide-linux-x64-gnu": "npm:4.0.0"
-    "@tailwindcss/oxide-linux-x64-musl": "npm:4.0.0"
-    "@tailwindcss/oxide-win32-arm64-msvc": "npm:4.0.0"
-    "@tailwindcss/oxide-win32-x64-msvc": "npm:4.0.0"
+    "@tailwindcss/oxide-android-arm64": "npm:4.0.3"
+    "@tailwindcss/oxide-darwin-arm64": "npm:4.0.3"
+    "@tailwindcss/oxide-darwin-x64": "npm:4.0.3"
+    "@tailwindcss/oxide-freebsd-x64": "npm:4.0.3"
+    "@tailwindcss/oxide-linux-arm-gnueabihf": "npm:4.0.3"
+    "@tailwindcss/oxide-linux-arm64-gnu": "npm:4.0.3"
+    "@tailwindcss/oxide-linux-arm64-musl": "npm:4.0.3"
+    "@tailwindcss/oxide-linux-x64-gnu": "npm:4.0.3"
+    "@tailwindcss/oxide-linux-x64-musl": "npm:4.0.3"
+    "@tailwindcss/oxide-win32-arm64-msvc": "npm:4.0.3"
+    "@tailwindcss/oxide-win32-x64-msvc": "npm:4.0.3"
   dependenciesMeta:
     "@tailwindcss/oxide-android-arm64":
       optional: true
@@ -3528,21 +3529,21 @@ __metadata:
       optional: true
     "@tailwindcss/oxide-win32-x64-msvc":
       optional: true
-  checksum: 10c0/705da4bce9b823fbe0b6996f160c0ef745ff2c118156b30593ef9fec92d9acafb13bff4a335f4b95980fad2663e3f16cb312bdfba62c7f78d356fa5bc66e5e84
+  checksum: 10c0/6130012f51a6ae2624f50aa57dabc22117e6ff941cf0be425c60862df6c49f470a5d0b673f33b7e8b19a17fa92e0e1da147758af1793c021d991d8e133b92920
   languageName: node
   linkType: hard
 
-"@tailwindcss/postcss@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "@tailwindcss/postcss@npm:4.0.0"
+"@tailwindcss/postcss@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "@tailwindcss/postcss@npm:4.0.3"
   dependencies:
     "@alloc/quick-lru": "npm:^5.2.0"
-    "@tailwindcss/node": "npm:^4.0.0"
-    "@tailwindcss/oxide": "npm:^4.0.0"
+    "@tailwindcss/node": "npm:^4.0.3"
+    "@tailwindcss/oxide": "npm:^4.0.3"
     lightningcss: "npm:^1.29.1"
     postcss: "npm:^8.4.41"
-    tailwindcss: "npm:4.0.0"
-  checksum: 10c0/a605393e9939026d8b723f676dfe5ba0bfcfc8dc3c3c26329890b0f9119b1f78ef9c8c6983bdeecbd5dc88bd2700a31f64ebdd386ac4c973ba789237baa8d55c
+    tailwindcss: "npm:4.0.3"
+  checksum: 10c0/1681ff159c510d1e0e6ed1c73d0013a794bff9053ec37cba36b33287f77569f11aed88ec9e8d31dca8213d94252ac5da7ff76aa0bb39750504e989c32fa4ce19
   languageName: node
   linkType: hard
 
@@ -3665,12 +3666,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^22.12.0":
-  version: 22.12.0
-  resolution: "@types/node@npm:22.12.0"
+"@types/node@npm:^22.13.1":
+  version: 22.13.1
+  resolution: "@types/node@npm:22.13.1"
   dependencies:
     undici-types: "npm:~6.20.0"
-  checksum: 10c0/be220706732d95db2ed1c441c1e64cab90bf9a47519ce6f4c79cc5a9ec9d5c517131a149a9ac30afac1a30103e67e3a00d453ba7c1b0141608a3a7ba6397c303
+  checksum: 10c0/d4e56d41d8bd53de93da2651c0a0234e330bd7b1b6d071b1a94bd3b5ee2d9f387519e739c52a15c1faa4fb9d97e825b848421af4b2e50e6518011e7adb4a34b7
   languageName: node
   linkType: hard
 
@@ -4369,14 +4370,14 @@ __metadata:
     "@eslint/eslintrc": "npm:^3.2.0"
     "@fontsource-variable/eb-garamond": "npm:^5.1.2"
     "@fontsource/eb-garamond": "npm:^5.1.2"
-    "@payloadcms/db-postgres": "npm:^3.19.0"
-    "@payloadcms/next": "npm:^3.19.0"
-    "@payloadcms/payload-cloud": "npm:^3.19.0"
-    "@payloadcms/richtext-lexical": "npm:^3.19.0"
-    "@payloadcms/storage-vercel-blob": "npm:^3.19.0"
-    "@tailwindcss/postcss": "npm:^4.0.0"
+    "@payloadcms/db-postgres": "npm:^3.20.0"
+    "@payloadcms/next": "npm:^3.20.0"
+    "@payloadcms/payload-cloud": "npm:^3.20.0"
+    "@payloadcms/richtext-lexical": "npm:^3.20.0"
+    "@payloadcms/storage-vercel-blob": "npm:^3.20.0"
+    "@tailwindcss/postcss": "npm:^4.0.3"
     "@tailwindcss/typography": "npm:^0.5.16"
-    "@types/node": "npm:^22.12.0"
+    "@types/node": "npm:^22.13.1"
     "@types/react": "npm:19.0.8"
     "@types/react-dom": "npm:19.0.3"
     clsx: "npm:^2.1.1"
@@ -4385,14 +4386,14 @@ __metadata:
     eslint-config-next: "npm:15.1.6"
     graphql: "npm:^16.10.0"
     next: "npm:15.1.6"
-    payload: "npm:^3.19.0"
+    payload: "npm:^3.20.0"
     postcss: "npm:^8.5.1"
     prettier: "npm:^3.4.2"
     react: "npm:19.0.0"
     react-dom: "npm:19.0.0"
     sharp: "npm:0.33.5"
-    tailwind-merge: "npm:^2.6.0"
-    tailwindcss: "npm:^4.0.0"
+    tailwind-merge: "npm:^3.0.1"
+    tailwindcss: "npm:^4.0.3"
     typescript: "npm:5.7.3"
   languageName: unknown
   linkType: soft
@@ -4465,7 +4466,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"classnames@npm:^2.3.1":
+"classnames@npm:^2.5.1":
   version: 2.5.1
   resolution: "classnames@npm:2.5.1"
   checksum: 10c0/afff4f77e62cea2d79c39962980bf316bacb0d7c49e13a21adaadb9221e1c6b9d3cdb829d8bb1b23c406f4e740507f37e1dcf506f7e3b7113d17c5bab787aa69
@@ -4805,7 +4806,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"diff@npm:^5.1.0":
+"diff@npm:^5.2.0":
   version: 5.2.0
   resolution: "diff@npm:5.2.0"
   checksum: 10c0/aed0941f206fe261ecb258dc8d0ceea8abbde3ace5827518ff8d302f0fc9cc81ce116c4d8f379151171336caf0516b79e01abdc1ed1201b6440d895a66689eb4
@@ -8115,13 +8116,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"payload@npm:^3.19.0":
-  version: 3.19.0
-  resolution: "payload@npm:3.19.0"
+"payload@npm:^3.20.0":
+  version: 3.20.0
+  resolution: "payload@npm:3.20.0"
   dependencies:
     "@monaco-editor/react": "npm:4.6.0"
     "@next/env": "npm:^15.1.5"
-    "@payloadcms/translations": "npm:3.19.0"
+    "@payloadcms/translations": "npm:3.20.0"
     "@types/busboy": "npm:1.5.4"
     ajv: "npm:8.17.1"
     bson-objectid: "npm:2.0.4"
@@ -8153,7 +8154,7 @@ __metadata:
     graphql: ^16.8.1
   bin:
     payload: bin.js
-  checksum: 10c0/ac9836d190ed1981d6698adff7f84c49142942e9b5011832962e17fe1a21ddbed77eb9594ff5c9d402f04c30f6040eef3e4ec3d15818ea586af5ba23d92213d1
+  checksum: 10c0/83818ef045b3fe694bbc997955ad9ff0651e313f8b97b3aae67791f5d2dd1023948c90cee4c5f15d69d59831c0048043f231cd7b0d9ae1e21bce066ddc398f86
   languageName: node
   linkType: hard
 
@@ -8599,19 +8600,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-diff-viewer-continued@npm:3.2.6":
-  version: 3.2.6
-  resolution: "react-diff-viewer-continued@npm:3.2.6"
+"react-diff-viewer-continued@npm:4.0.4":
+  version: 4.0.4
+  resolution: "react-diff-viewer-continued@npm:4.0.4"
   dependencies:
-    "@emotion/css": "npm:^11.10.5"
-    classnames: "npm:^2.3.1"
-    diff: "npm:^5.1.0"
+    "@emotion/css": "npm:^11.13.5"
+    "@emotion/react": "npm:^11.14.0"
+    classnames: "npm:^2.5.1"
+    diff: "npm:^5.2.0"
     memoize-one: "npm:^6.0.0"
-    prop-types: "npm:^15.8.1"
   peerDependencies:
-    react: ^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/f6204bd677623265ff5c791626cfd23034174115cefd97e39f2f9cda04b81131e3271b2370b509bcf0fec7e8d98314c53e22dd58665747c5c374175d9a9787e4
+    react: ^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10c0/e772a21b7cada805a16ad1460278ac5cec3b9432ec53bff1a8b12b628dcc2bae54ce825fd0b9af8ba6b5e9381fec9308525b8e3fd26c6bf4184303cd71178ded
   languageName: node
   linkType: hard
 
@@ -9544,17 +9545,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwind-merge@npm:^2.6.0":
-  version: 2.6.0
-  resolution: "tailwind-merge@npm:2.6.0"
-  checksum: 10c0/fc8a5535524de9f4dacf1c16ab298581c7bb757d68a95faaf28942b1c555a619bba9d4c6726fe83986e44973b315410c1a5226e5354c30ba82353bd6d2288fa5
+"tailwind-merge@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "tailwind-merge@npm:3.0.1"
+  checksum: 10c0/973d754687ad82d25cb55bf16958153999d080cd68dd0a6c1c74909bd92d05bcca01c24d9642e9e6ec95b3a207b15cd4b32bca49d586f2e743d311358ecb584b
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:4.0.0, tailwindcss@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "tailwindcss@npm:4.0.0"
-  checksum: 10c0/418b1cb02c46f5064bdd4931d8bb030e5c2a986744226dc282b47ecd4b95d1eb919a6f35a68cac948fbf3224fd976feafd9476e289cb5774062f6a3b2a49606e
+"tailwindcss@npm:4.0.3, tailwindcss@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "tailwindcss@npm:4.0.3"
+  checksum: 10c0/afab90685af6cecbdce61fec5e3a9ddd10696fd2e60e7ad7d5e2eceb5eaaa458a752f1ceb4176843377e8ded44ff5da52f42258a3e74b538920214986cfa9811
   languageName: node
   linkType: hard
 
