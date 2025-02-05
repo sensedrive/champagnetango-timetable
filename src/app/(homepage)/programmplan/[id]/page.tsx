@@ -62,7 +62,7 @@ const ProgrammplanPage = async ({ params }: { params: Promise<{ id: string }> })
                   {typeof tag.image !== 'number' && (
                     <EventCard
                       imageUrl={tag.image.url ?? ''}
-                      day={getDay(tag.date)}
+                      day={tag.title}
                       date={getDateShort(tag.date)}
                     />
                   )}
